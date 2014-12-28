@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NAvTabs</title>
+    <style type="text/css">
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    li,
+    p {
+        font: 12px Arial, Helvetica, sans-serif;
+    }
+    .tabwrapper .tabmenu .nav {
+        margin: 0;
+        padding: 0;
+        margin: 0 0 10px 25px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        list-style: none;
+        border-bottom: 1px groove #000;
+    }
+    .tabwrapper .tabmenu .nav li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
+        margin-bottom: -1px;
+        display: inline-block;
+    }
+    .tabwrapper .tabmenu .nav li a {
+        transition: all 0.1s linear 0s;
+        text-decoration: none;
+        display: block;
+        padding: 5px 20px;
+        background: #000;
+        color: #f0f0f0;
+        margin-right: 2px;
+        margin-bottom: 0px;
+        border: 1px solid transparent;
+        -moz-border-radius: 4px 4px 0 0;
+        border-radius: 4px 4px 0 0;
+    }
+    .tabwrapper .tabmenu .nav li.active a,
+    .tabwrapper .tabmenu .nav li.hover a {
+        padding-bottom: 5px;
+        color: #000;
+        cursor: default;
+        background-color: #fff;
+        border: 1px groove #000;
+        border-bottom-color: transparent;
+    }
+    .tabwrapper .tabcontent .tabs {
+        display: none;
+    }
+    .tabwrapper .tabcontent .tabs:first-child {
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="tabwrapper">
+        <div class="tabmenu">
+
+            <ul class="nav">
+                <li class="active"><a href="#">Tab 1</a>
+                </li>
+                <li><a href="#">Tab 2</a>
+                </li>
+                <li><a href="#">Tab 3</a>
+                </li>
+                <li><a href="#">Tab 4</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="tabcontent">
+
+            <div class='tabs'>
+
+                <p>
+                    Mauris congue fringilla odio non pharetra. Aenean eu augue eros. Donec tempus posuere velit, ut mattis nisl semper id. Nunc quis mi et orci cursus viverra vitae sed lorem. Quisque ligula lectus, gravida eget leo eleifend, condimentum faucibus orci. Nulla dictum congue velit, quis volutpat erat varius ut. Morbi ut leo risus. Nam feugiat massa at mi rhoncus finibus. Nunc commodo quis est ut fringilla. Maecenas gravida tortor ac risus placerat, a mattis ligula semper. Sed luctus tempus rhoncus. Aliquam ultrices maximus diam, eget sollicitudin dolor imperdiet et. Maecenas justo mauris, auctor ac gravida quis, mattis sodales ex. Morbi accumsan ac lorem pulvinar consectetur.
+                </p>
+            </div>
+
+            <div class='tabs'>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet auctor ex, at convallis velit condimentum at. Mauris commodo eu metus et bibendum. Nullam placerat sem quis mauris volutpat commodo. Vestibulum a est erat. Maecenas faucibus enim et erat condimentum semper. Pellentesque ut ex id nisi luctus bibendum et ac turpis. Cras vehicula porta massa, at imperdiet odio eleifend ac. Aenean tempor egestas erat, nec dictum purus rutrum nec. Sed ut massa eros. Duis quis enim quis justo eleifend tincidunt id vel nisi. Suspendisse volutpat leo ligula, ut suscipit justo condimentum vitae. Fusce laoreet tortor vel enim cursus dictum. Fusce quis velit vitae urna interdum imperdiet eu sit amet sapien. Curabitur porttitor nisi placerat felis dictum malesuada.
+                </p>
+
+
+            </div>
+
+            <div class='tabs'>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis ac leo ac convallis. Vivamus faucibus, nisl eu imperdiet accumsan, nibh diam feugiat magna, vel mollis tortor tellus id ex. Pellentesque vitae euismod urna, nec rhoncus lacus. Suspendisse tincidunt tellus et mi posuere, sed dapibus lectus vestibulum. In nisi tortor, tincidunt ut lacus vitae, cursus pharetra magna. Vestibulum egestas ipsum metus, eu vulputate leo finibus sit amet. Nam ut egestas est. Duis eu sapien eget lectus porttitor lacinia. Aenean commodo pretium eleifend.
+                </p>
+
+            </div>
+
+            <div class='tabs'>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium placerat justo sed porttitor. Etiam vel nulla dignissim, hendrerit justo eget, pellentesque magna. Pellentesque at interdum libero. Aenean scelerisque ante sem, ut maximus metus dapibus sit amet. Fusce fringilla metus in suscipit suscipit. Integer dictum ante vel dui blandit efficitur. Curabitur arcu sapien, mattis in mauris ac, interdum bibendum ante. Nullam malesuada eu dui non efficitur. In eget diam sit amet neque semper tristique. In iaculis mi at tellus hendrerit ornare. Integer felis orci, imperdiet ut porttitor quis, viverra a nibh.
+                </p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="NAvTab.js"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+
+</html>
